@@ -2,7 +2,7 @@ import { fetchBreeds, fetchCatByBreed } from "../js/cat-api";
 import SlimSelect from 'slim-select';
 import { Notify } from 'notiflix/build/notiflix-notify-aio'
 
-refs = {
+const refs = {
     selectEl: document.querySelector('.breed-select'),
     loaderMessage: document.querySelector('.loader'),
     // errorMessage: document.querySelector('.error'),
