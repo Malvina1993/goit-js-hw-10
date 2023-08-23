@@ -14,14 +14,7 @@ new SlimSelect({
     select: "#breed-select"
 })
 
-
-
-refs.selectEl.style.display = 'none';
-// refs.errorMessage.style.display = 'none';
-
-
 refs.selectEl.addEventListener('change', onChooseBreed);
-
 
 
 fetchBreeds().then(date => {
